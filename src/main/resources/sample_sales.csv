@@ -1,0 +1,11 @@
+order_date,product_name,category,region,quantity,unit_price,total_amount,customer_id
+2024-01-15,Laptop Pro,Electronics,North,2,75000.00,150000.00,CUST001
+2024-01-20,Office Chair,Furniture,South,5,8500.00,42500.00,CUST002
+2024-02-05,Wireless Mouse,Electronics,East,10,1200.00,12000.00,CUST003
+2024-02-18,Standing Desk,Furniture,North,3,22000.00,66000.00,CUST004
+2024-03-10,Laptop Pro,Electronics,West,1,75000.00,75000.00,CUST005
+2024-03-22,USB Hub,Electronics,South,15,800.00,12000.00,CUST006
+2024-04-01,Gaming Chair,Furniture,East,2,15000.00,30000.00,CUST007
+2024-04-14,Monitor 4K,Electronics,North,4,28000.00,112000.00,CUST008
+2024-05-05,Webcam HD,Electronics,West,8,3500.00,28000.00,CUST009
+2024-05-19,Bookshelf,Furniture,South,6,5000.00,30000.00,CUST010
