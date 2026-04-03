@@ -4,6 +4,7 @@ import com.sun.jdi.connect.spi.Connection;
 import org.Exceptions.InvalidRequestException;
 
 import java.io.File;
+import java.util.List;
 import java.util.Scanner;
 
 public class FileLoader
@@ -25,8 +26,8 @@ public class FileLoader
             }
             else
             {
-                CSVReader reader = CSVReader.getInstance();
-                reader.read();
+                List<String[]> rows =  CSVFileReader.readCSV( filePath );
+                CSVFileReader.printRows( rows );
             }
 
         }

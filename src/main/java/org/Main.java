@@ -1,5 +1,7 @@
 package org;
 
+import org.csvreader.FileLoader;
+
 import java.util.Scanner;
 
 public class Main
@@ -30,7 +32,7 @@ public class Main
                 {
                     case 1:
                     {
-
+                        new FileLoader().load();
                         break;
                     }
                     case 2:
